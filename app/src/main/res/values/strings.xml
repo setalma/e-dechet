@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">e-dechet</string>
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="entrer_votre_mot_de_pass_string">Entrer Votre Mot de Pass</string>
+    <string name="entrer_votre_nom_complet_string">Entrer Votre Nom Complet</string>
+    <string name="entre_votre_email_string">Entre Votre email</string>
+    <string name="confirmer_votre_mot_de_passe_string">Confirmer Votre Mot de passe</string>
+    <string name="vous_avez_un_compte__connecter_vous_string">Vous avez un compte? Connecter-vous</string>
+    <string name="inscrivez_vous_string">Inscrivez-Vous</string>
+    <string name="inscrivez_vous__string">Inscrivez-vous!</string>
+    <string name="vos_informations_sont_en_s_curit__avec_nous_string">Vos informations sont en scurit avec nous</string>
+    <string name="entrer_votre_email_string">Entrer votre email</string>
+    <string name="entrer_votre_mot_de_passe_string">Entrer Votre   Mot  de passe </string>
+    <string name="forgot_password_string">Forgot Password</string>
+    <string name="vous_n__avez_pas_de_compte__inscrivez_vous_string">Vous n avez pas de compte? Inscrivez-vous</string>
+    <string name="connexion_string">Connexion</string>
+    <string name="bienvenue__string">Bienvenue!</string>
+    <string name="s_tal_ma_string">Stal-ma</string>
+    <string name="connexion_avec_google_string">Connexion avec Google</string>
+    <string name="text_string"></string>
+</resources>

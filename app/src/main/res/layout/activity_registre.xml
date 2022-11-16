@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content" >
+    <!--
+    /*
+     *	This content is generated from the API File Info.
+     *	(Alt+Shift+Ctrl+I).
+     *
+     *	@desc
+     *	@file 		sign_up_screen
+     *	@date 		Wednesday 16th of November 2022 02:04:19 PM
+     *	@title 		Page 2
+     *	@author
+     *	@keywords
+     *	@generator 	Export Kit v1.3.figma
+     *
+     */
+    -->
+    <ScrollView android:id="@+id/sign_up_screen"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+
+            <View
+                android:id="@+id/rectangle_3"
+                android:layout_width="375dp"
+                android:layout_height="677dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="50dp"
+                android:alpha="0.54000002145767"
+                android:background="@drawable/rectangle_3_shape" />
+
+            <Button
+                android:id="@+id/rectangle_1"
+                android:layout_width="308dp"
+                android:layout_height="58dp"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="648dp"
+                android:background="@drawable/rectangle_1_shape"
+                android:text="@string/inscrivez_vous__string" />
+
+            <View   android:id="@+id/rectangle_4"
+                android:background="@drawable/rectangle_4_shape"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="444dp"
+                android:layout_width="308dp"
+                android:layout_height="58dp" />
+
+            <View   android:id="@+id/rectangle_6"
+                android:background="@drawable/rectangle_6_shape"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="343dp"
+                android:layout_width="308dp"
+                android:layout_height="58dp" />
+
+            <View   android:id="@+id/rectangle_7"
+                android:background="@drawable/rectangle_7_shape"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="240dp"
+                android:layout_width="308dp"
+                android:layout_height="58dp" />
+
+            <View   android:id="@+id/rectangle_5"
+                android:background="@drawable/rectangle_5_shape"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="545dp"
+                android:layout_width="308dp"
+                android:layout_height="58dp" />
+
+            <EditText
+                android:id="@+id/entrer_votre_mot_de_pass"
+                android:layout_width="282dp"
+                android:layout_height="61dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="449dp"
+                android:fontFamily="Roboto"
+                android:gravity="center"
+                android:hint="@string/entrer_votre_mot_de_pass_string"
+                android:inputType="textPassword"
+                android:textColor="@color/entrer_votre_mot_de_pass_color"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/entrer_votre_nom_complet"
+                android:layout_width="279dp"
+                android:layout_height="63dp"
+                android:layout_marginLeft="41dp"
+                android:layout_marginTop="248dp"
+                android:fontFamily="Roboto"
+                android:gravity="center"
+                android:hint="@string/entrer_votre_nom_complet_string"
+                android:textColor="@color/entrer_votre_mot_de_pass_color"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/entre_votre_email"
+                android:layout_width="279dp"
+                android:layout_height="53dp"
+                android:layout_marginLeft="41dp"
+                android:layout_marginTop="343dp"
+                android:fontFamily="Roboto"
+                android:gravity="center"
+                android:hint="@string/entre_votre_email_string"
+                android:textColor="@color/entrer_votre_mot_de_pass_color"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/confirmer_votre_mot_de_passe"
+                android:layout_width="258dp"
+                android:layout_height="51dp"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginLeft="62dp"
+                android:layout_marginTop="556dp"
+                android:fontFamily="Roboto"
+                android:gravity="center"
+                android:hint="@string/confirmer_votre_mot_de_passe_string"
+                android:inputType="textPassword"
+                android:textColor="@color/entrer_votre_mot_de_pass_color"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/vous_avez_un_compte__connecter_vous"
+                android:layout_width="349dp"
+                android:layout_height="54dp"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="742dp"
+                android:fontFamily="Roboto"
+                android:gravity="center"
+                android:text="@string/vous_avez_un_compte__connecter_vous_string"
+                android:textColor="@color/entrer_votre_mot_de_pass_color"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/inscrivez_vous_"
+                android:layout_width="238dp"
+                android:layout_height="37dp"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginLeft="38dp"
+                android:layout_marginTop="120dp"
+                android:fontFamily="Poppins"
+                android:gravity="center"
+                android:text="@string/inscrivez_vous__string"
+                android:textColor="@color/entrer_votre_mot_de_pass_color"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vos_informations_sont_en_s_curit__avec_nous"
+                android:layout_width="297dp"
+                android:layout_height="58.5dp"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginLeft="38dp"
+                android:layout_marginTop="169dp"
+                android:fontFamily="Roboto"
+                android:gravity="center"
+                android:text="@string/vos_informations_sont_en_s_curit__avec_nous_string"
+                android:textColor="@color/entrer_votre_mot_de_pass_color"
+                android:textSize="15sp" />
+
+            <View   android:id="@+id/ellipse_1"
+                android:background="@drawable/ellipse_1_shape"
+                android:alpha="0.37999999523163"
+                android:layout_marginStart="225dp"
+                android:layout_marginTop="-30dp"
+                android:layout_width="199dp"
+                android:layout_height="199dp" />
+
+            <View   android:id="@+id/ellipse_1_ek1"
+                android:background="@drawable/ellipse_1_ek1_shape"
+                android:alpha="0.60000002384186"
+                android:layout_marginStart="264dp"
+                android:layout_marginTop="-56dp"
+                android:layout_width="199dp"
+                android:layout_height="199dp" />
+
+            <TextView android:id="@+id/s_tal_ma"
+                android:fontFamily="Poppins"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal|center"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="@color/s_tal_ma_color"
+                android:layout_marginLeft="86dp"
+                android:layout_marginTop="29dp"
+                android:layout_width="174dp"
+                android:layout_height="59.5dp"
+                android:text="@string/s_tal_ma_string"
+                />
+
+            <ImageView android:id="@+id/vector"
+                android:src="@drawable/ic_vector"
+                android:contentDescription="vector"
+                android:layout_marginStart="41dp"
+                android:layout_marginTop="19dp"
+                android:layout_width="49dp"
+                android:layout_height="38dp" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+</HorizontalScrollView>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "540588247354",
+    "project_id": "e-dechet-projet",
+    "storage_bucket": "e-dechet-projet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540588247354:android:e1fbad2108c88f59672803",
+        "android_client_info": {
+          "package_name": "com.example.e_dechet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "540588247354-cikf29frpi6plaf3cnlmp5n55c6hat80.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzegtxEXjbesuovU_Lzb9VPCNOpSZjqYQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "540588247354-cikf29frpi6plaf3cnlmp5n55c6hat80.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
