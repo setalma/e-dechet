@@ -3,10 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/hp/StudioProjects/edechet/app/src/main/res/drawable/bassadd.xml" value="0.1315" />
+        <entry key="..\:/Users/hp/StudioProjects/edechet/app/src/main/res/drawable/ic_btnadd.xml" value="0.1315" />
+        <entry key="..\:/Users/hp/StudioProjects/edechet/app/src/main/res/drawable/transparent_background.xml" value="0.1315" />
+        <entry key="..\:/Users/hp/StudioProjects/edechet/app/src/main/res/layout/activity_alerte.xml" value="0.18" />
         <entry key="..\:/Users/hp/StudioProjects/edechet/app/src/main/res/layout/activity_login.xml" value="0.18" />
         <entry key="..\:/Users/hp/StudioProjects/edechet/app/src/main/res/layout/activity_main.xml" value="0.21145833333333333" />
         <entry key="..\:/Users/hp/StudioProjects/edechet/app/src/main/res/layout/activity_registre.xml" value="0.21041666666666667" />
-        <entry key="..\:/Users/hp/StudioProjects/edechet/app/src/main/res/layout/acueil_activity.xml" value="0.22" />
+        <entry key="..\:/Users/hp/StudioProjects/edechet/app/src/main/res/layout/activy_alerts.xml" value="0.22" />
+        <entry key="..\:/Users/hp/StudioProjects/edechet/app/src/main/res/layout/acueil_activity.xml" value="0.1" />
         <entry key="..\:/Users/hp/StudioProjects/edechet/app/src/main/res/menu/buttom_menu_bar.xml" value="0.14791666666666667" />
       </map>
     </option>

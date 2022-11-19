@@ -25,16 +25,17 @@
             android:layout_height="wrap_content" >
 
 
-            <View   android:id="@+id/rectangle_3"
-                android:background="@drawable/rectangle_3_shape"
-                android:alpha="0.54000002145767"
+            <View
+                android:id="@+id/rectangle_3"
+                android:layout_width="375dp"
+                android:layout_height="727dp"
                 android:layout_marginStart="0dp"
                 android:layout_marginTop="85dp"
-                android:layout_width="375dp"
-                android:layout_height="727dp" />
+                android:alpha="0.54000002145767"
+                android:background="@drawable/rectangle_3_shape" />
 
             <Button
-                android:id="@+id/rectangle_1"
+                android:id="@+id/btn_connexion"
                 android:layout_width="308dp"
                 android:layout_height="58dp"
                 android:layout_marginStart="28dp"
@@ -42,13 +43,14 @@
                 android:background="@drawable/rectangle_1_shape"
                 android:text="@string/connexion_string" />
 
-            <ImageView android:id="@+id/rectangle_6"
-                android:src="@drawable/rectangle_6"
-                android:contentDescription="rectangle_6"
+            <ImageView
+                android:id="@+id/rectangle_6"
+                android:layout_width="308dp"
+                android:layout_height="58dp"
                 android:layout_marginStart="31dp"
                 android:layout_marginTop="708dp"
-                android:layout_width="308dp"
-                android:layout_height="58dp" />
+                android:contentDescription="rectangle_6"
+                android:src="@drawable/rectangle_6" />
 
             <View   android:id="@+id/rectangle_4"
                 android:background="@drawable/rectangle_4_shape"
@@ -103,18 +105,17 @@
                 android:text="@string/forgot_password_string"
                 />
 
-            <TextView android:id="@+id/vous_n__avez_pas_de_compte__inscrivez_vous"
-                android:fontFamily="Roboto"
-                android:layout_gravity="center_horizontal|center"
-                android:gravity="center"
-                android:textSize="18sp"
-                android:textColor="@color/entrer_votre_email_color"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="776dp"
+            <Button
+                android:id="@+id/btn_inscrivez_vous2"
                 android:layout_width="364dp"
                 android:layout_height="34dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="776dp"
+                android:fontFamily="Roboto"
+                android:gravity="center"
                 android:text="@string/vous_n__avez_pas_de_compte__inscrivez_vous_string"
-                />
+                android:textColor="@color/entrer_votre_email_color"
+                android:textSize="18sp" />
 
             <ImageView android:id="@+id/vector"
                 android:src="@drawable/vector"
@@ -320,19 +321,19 @@
                 android:text="@string/s_tal_ma_string"
                 />
 
-            <TextView android:id="@+id/connexion_avec_google"
-                android:fontFamily="Poppins"
-                android:textStyle="bold"
-                android:layout_gravity="center_horizontal|center"
-                android:gravity="center"
-                android:textSize="20sp"
-                android:textColor="@color/rectangle_4_color"
-                android:layout_marginLeft="46dp"
-                android:layout_marginTop="718dp"
+            <TextView
+                android:id="@+id/connexion_avec_google"
                 android:layout_width="303dp"
                 android:layout_height="49dp"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginLeft="46dp"
+                android:layout_marginTop="718dp"
+                android:fontFamily="Poppins"
+                android:gravity="center"
                 android:text="@string/connexion_avec_google_string"
-                />
+                android:textColor="@color/rectangle_4_color"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <ImageView android:id="@+id/vector_ek20"
                 android:src="@drawable/vector_ek20"

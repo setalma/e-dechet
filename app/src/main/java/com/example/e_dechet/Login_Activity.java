@@ -8,29 +8,29 @@ import android.widget.Button;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class InscriptionActivity  extends AppCompatActivity {
-
+public class Login_Activity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_registre);
-        Button btninscription = (Button) findViewById(R.id.btn_inscrire);
-        Button btnconnectervous = (Button) findViewById(R.id.btn_connectez_vous);
+        setContentView(R.layout.activity_login);
+        Button btnConnexion = (Button) findViewById(R.id.btn_connexion);
+        Button btninscrivezvous = (Button) findViewById(R.id.btn_inscrivez_vous2);
 
-        btninscription.setOnClickListener(new View.OnClickListener() {
+        btnConnexion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent order = new Intent(getApplicationContext(),MainActivity.class);
+                Intent order =  new Intent(getApplicationContext(),Accueil.class);
                 startActivity(order);
             }
         });
 
-        btnconnectervous.setOnClickListener(new View.OnClickListener() {
+        btninscrivezvous.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent order2 = new Intent(getApplicationContext(),Login_Activity.class);
+                Intent order2 = new Intent(getApplicationContext(),InscriptionActivity.class);
                 startActivity(order2);
             }
         });
+
     }
 }

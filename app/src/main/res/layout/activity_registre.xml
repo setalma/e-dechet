@@ -35,7 +35,7 @@
                 android:background="@drawable/rectangle_3_shape" />
 
             <Button
-                android:id="@+id/rectangle_1"
+                android:id="@+id/btn_inscrire"
                 android:layout_width="308dp"
                 android:layout_height="58dp"
                 android:layout_marginStart="27dp"
@@ -122,11 +122,10 @@
                 android:textColor="@color/entrer_votre_mot_de_pass_color"
                 android:textSize="18sp" />
 
-            <TextView
-                android:id="@+id/vous_avez_un_compte__connecter_vous"
+            <Button
+                android:id="@+id/btn_connectez_vous"
                 android:layout_width="349dp"
                 android:layout_height="54dp"
-                android:layout_gravity="center_horizontal|center"
                 android:layout_marginLeft="14dp"
                 android:layout_marginTop="742dp"
                 android:fontFamily="Roboto"
