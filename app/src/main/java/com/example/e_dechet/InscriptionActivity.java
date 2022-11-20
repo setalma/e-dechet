@@ -45,7 +45,7 @@ public class InscriptionActivity  extends AppCompatActivity {
                 String mdp=(String)password.getText().toString();
                 String confirm =(String)conf.getText().toString();
                 User u=new User(nomC,mail,mdp,confirm);
-                Intent order = new Intent(getApplicationContext(),Accueil.class);
+                Intent order = new Intent(getApplicationContext(),Login_Activity.class);
                 if(mdp.equals(confirm)){
                     ref.document().set(u)
                             .addOnSuccessListener(new OnSuccessListener<Void>() {

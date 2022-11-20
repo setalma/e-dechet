@@ -17,6 +17,11 @@ public class User {
         this.confpassword = confpassword;
     }
 
+    public User(String email, String password) {
+        this.email = email;
+        this.password = password;
+    }
+
     public String getNom_complet() {
         return nom_complet;
     }
