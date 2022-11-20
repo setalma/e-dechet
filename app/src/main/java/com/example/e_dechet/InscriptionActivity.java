@@ -44,7 +44,6 @@ public class InscriptionActivity  extends AppCompatActivity {
                 String mail =(String)email.getText().toString();
                 String mdp=(String)password.getText().toString();
                 String confirm =(String)conf.getText().toString();
-                System.out.println("bqbqbqbqbqbbqbbqb" + nom+mail+mdp+conf);
                 User u=new User(nomC,mail,mdp,confirm);
                 Intent order = new Intent(getApplicationContext(),Accueil.class);
                 if(mdp.equals(confirm)){
