@@ -108,11 +108,10 @@
                 android:textColor="@color/entrer_votre_mot_de_pass_color"
                 android:textSize="18sp" />
 
-            <TextView
+            <EditText
                 android:id="@+id/confirmer_votre_mot_de_passe"
                 android:layout_width="258dp"
                 android:layout_height="51dp"
-                android:layout_gravity="center_horizontal|center"
                 android:layout_marginLeft="62dp"
                 android:layout_marginTop="556dp"
                 android:fontFamily="Roboto"
