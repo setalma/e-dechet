@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
@@ -20,6 +21,9 @@ public class Accueil extends AppCompatActivity {
         setContentView(R.layout.acueil_activity);
         Intent informationpersonelle = getIntent();
         TextView message = (TextView)findViewById(R.id.textView4);
+        ImageButton zonesale = (ImageButton)findViewById(R.id.imageButton2);
+        ImageButton zonepropre = (ImageButton)findViewById(R.id.imageButton3);
+
         User u = new User();
         if(informationpersonelle!=null){
             u.setNom_complet(informationpersonelle.getStringExtra(nomcompletglobal));
@@ -35,13 +39,21 @@ public class Accueil extends AppCompatActivity {
                 startActivity(order_add);
             }
         });
-       // Button btn_add_alerte = (Button) findViewById(R.id.fab_alerte);
 
-     /*   btn_add_alerte.setOnClickListener(new View.OnClickListener() {
+        zonesale.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent order_zone_sale = new Intent(getApplicationContext(),EnvoyerAlerte_Activity.class);
+                startActivity(order_zone_sale);
             }
-        });*/
+        });
+
+        zonepropre.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent order_zone_propre = new Intent(getApplicationContext(),EnvoyerAlerte_Activity.class);
+                startActivity(order_zone_propre);
+            }
+        });
     }
 }
