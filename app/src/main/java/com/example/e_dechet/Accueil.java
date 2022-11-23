@@ -43,7 +43,7 @@ public class Accueil extends AppCompatActivity {
         zonesale.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent order_zone_sale = new Intent(getApplicationContext(),EnvoyerAlerte_Activity.class);
+                Intent order_zone_sale = new Intent(getApplicationContext(),MapsFragment.class);
                 startActivity(order_zone_sale);
             }
         });
@@ -51,7 +51,7 @@ public class Accueil extends AppCompatActivity {
         zonepropre.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent order_zone_propre = new Intent(getApplicationContext(),EnvoyerAlerte_Activity.class);
+                Intent order_zone_propre = new Intent(getApplicationContext(),MapsZonePropre.class);
                 startActivity(order_zone_propre);
             }
         });

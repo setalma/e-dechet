@@ -23,6 +23,7 @@
         android:id="@+id/btn_valider_alerte"
         android:layout_width="310dp"
         android:layout_height="64dp"
+        android:shadowRadius="@dimen/cardview_default_radius"
         android:text="Envoyer"
         app:circularflow_defaultRadius="@dimen/cardview_default_radius"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -39,7 +40,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/image_verte" />
+        app:srcCompat="@drawable/my_green" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigationView"
