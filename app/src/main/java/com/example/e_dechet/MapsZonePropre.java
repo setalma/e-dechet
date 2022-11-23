@@ -65,7 +65,7 @@ public class MapsZonePropre extends FragmentActivity  implements  OnMapReadyCall
             mMap.addMarker(new MarkerOptions().position(locationArrayList.get(i)).title("Marker"));
 
             // below lin is use to zoom our camera on map.
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(65.0f));
+            mMap.animateCamera(CameraUpdateFactory.zoomTo(16.0f));
 
             // below line is use to move our camera to the specific location.
             mMap.moveCamera(CameraUpdateFactory.newLatLng(locationArrayList.get(i)));
